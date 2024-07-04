@@ -17,4 +17,8 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::view('filament-form', 'filament-form')
+    ->middleware(['auth'])
+    ->name('filament-form');
+
 require __DIR__.'/auth.php';
