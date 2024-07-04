@@ -21,8 +21,4 @@ Route::view('filament-form', 'filament-form')
     ->middleware(['auth'])
     ->name('filament-form');
 
-Route::view('filament-form', 'filament-form')
-    ->middleware(['auth'])
-    ->name('filament-form');
-
 require __DIR__.'/auth.php';
